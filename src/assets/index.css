@@ -1,0 +1,138 @@
+/* start tailwind */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* end tailwind */
+
+/* font */
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;500&family=Roboto+Condensed:ital,wght@0,300;1,300;1,400&display=swap');
+/* end font */
+
+/* navbar */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    /* padding: 20px 0; */
+    padding-top: 30px ;
+    align-items: center;
+    color: #fff;
+}
+
+nav .contact-us {
+    font-family: 'Pacifico', cursive;
+    letter-spacing: 6px;
+    margin-right: 8%;
+}
+
+nav ul {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 18%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    transform: translate(-700px);
+    z-index: 10;
+    transition: all 1s;
+}
+
+nav ul.slide {
+    transform: translateX(0);
+}
+
+nav ul li a {
+    color: #000;
+    font-size: 1em;
+    text-decoration: none;
+    transition: .7s;
+}
+
+nav ul li  a:hover {
+    color: rgb(206, 204, 204);
+}
+
+/* hamburger menu */
+.menu-toggle {
+    position: relative;
+    left: 8%;
+    display: flex;
+    flex-direction: column;
+    height: 20px;
+    justify-content: space-between;
+    z-index: 11;
+}
+
+.menu-toggle input {
+    position: absolute;
+    left: -6px;
+    width: 40px;
+    height: 28px;
+    opacity: 0;
+    cursor: pointer;
+    z-index: 2;
+}
+
+.menu-toggle span {
+    display: block;
+    width: 28px;
+    height: 3px;
+    background-color: #fff;
+    border-radius: 3px;
+    transition: all 0.5s;
+}
+
+/* hamburger menu animation */
+.menu-toggle span:nth-child(2) {
+   transform-origin: 0 0;
+}
+
+.menu-toggle span:nth-child(4) {
+    transform-origin: 0 0;
+ }
+
+ .menu-toggle input:checked ~ span {
+ }
+
+.menu-toggle input:checked ~ span:nth-child(2) {
+    background-color: #000;
+    transform: rotate(45deg) translate(-0px, -2px);
+}
+
+.menu-toggle input:checked ~ span:nth-child(4) {
+    background-color: #000;
+    transform: rotate(-45deg) translate(-1px, 0);
+}
+
+.menu-toggle input:checked ~ span:nth-child(3) {
+    opacity: 0;
+    transform: scale(0);
+    background-color: #000;
+}
+
+
+/* responsive breakpoint */
+
+/* ukuran tablet */
+@media screen and (max-width: 768px) {
+    nav ul {
+        width: 50%
+    }
+}
+
+/* ukuran mobile */
+@media screen and (max-width: 100%) {
+    .menu-toggle {
+        display: flex;
+    }
+
+    
+}
+
+/* start home */
+.home .description-home {
+    font-family: 'Mukta', sans-serif;
+}
