@@ -26,7 +26,7 @@ nav .contact-us {
 }
 
 nav ul {
-    position: absolute;
+    position: fixed;
     left: 0;
     top: 0;
     width: 18%;
@@ -36,7 +36,7 @@ nav ul {
     justify-content: space-evenly;
     align-items: center;
     transform: translate(-700px);
-    z-index: 10;
+    z-index: ;
     transition: all 1s;
 }
 
@@ -112,27 +112,21 @@ nav ul li  a:hover {
     transform: scale(0);
     background-color: #000;
 }
+/* end navbar */
 
-
-/* responsive breakpoint */
-
-/* ukuran tablet */
-@media screen and (max-width: 768px) {
-    nav ul {
-        width: 50%
-    }
-}
-
-/* ukuran mobile */
-@media screen and (max-width: 100%) {
-    .menu-toggle {
-        display: flex;
-    }
-
-    
-}
 
 /* start home */
+.home {
+    background-image: url(../img/bg-page-1.jpg);
+    z-index: -20;
+}
+
 .home .description-home {
     font-family: 'Mukta', sans-serif;
+}
+/* end home */
+
+/* start container-how-we-work */
+.container-how-we-work {
+    background-image: url(../img/bg-page-2.jpg);
 }

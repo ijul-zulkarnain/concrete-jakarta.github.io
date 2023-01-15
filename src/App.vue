@@ -27,7 +27,7 @@ import { RouterLink, RouterView } from 'vue-router'
             <a>Contact Us </a>
         </div>
     </nav>
-    <div class=" w-[85%] m-auto fixed z-[-999] top-20 left-[5.7rem] border-b-2	 border-navbar"></div>
+    <div class=" w-[85%] m-auto fixed z-[] top-20 left-[5.7rem] border-b-2	 border-navbar"></div>
 
     <div class=" w-full h-[100vh] home">
         <div class=" w-[80%] m-auto pt-[16rem] home-description">

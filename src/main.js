@@ -12,6 +12,7 @@ app.use(router)
 
 app.mount('#app')
 
+// start slide menu-toggle
 const MenuToggle = document.querySelector('.menu-toggle input');
 
 const nav = document.querySelector('nav ul');
@@ -19,3 +20,4 @@ const nav = document.querySelector('nav ul');
 MenuToggle.addEventListener('click', function() {
     nav.classList.toggle('slide');
 });
+// end slide menu-toggle
