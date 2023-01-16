@@ -81,7 +81,7 @@ import { RouterLink, RouterView } from 'vue-router'
             <div class=" w-32 h-20 bg-white rounded-[10px] card">Laravel</div>
             
         </div>
-
+        <h1>testing git pull</h1>
     </div>
 
   <RouterView />
