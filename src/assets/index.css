@@ -135,14 +135,21 @@ nav ul li  a:hover {
 /* start container-how-we-work-listen */
 .container-how-we-work-listen {
     background-image: url(../img/bg-page-1.jpg);
-    background-position: center;
-    background-size: cover;
 }
 /* end container-how-we-work-listen */
 
 /* start container-technology-stack */
 .container-technology-stack {
-    background-image: url(../img/bg-page-3.jpg);
-    background-size: cover;
-    background-position: center;
+    background-image: url(../img/bg-page-2.jpg);
+}
+
+/* start container-why-us */
+.container-why-us {
+    background-image: url(../img/bg-page-1.jpg);
+}
+/* end container-why-us */
+
+/* container-our-project */
+.container-our-project {
+    background-image: url(../img/bg-page-2.jpg);
 }

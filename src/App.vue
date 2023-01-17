@@ -24,7 +24,7 @@ import { RouterLink, RouterView } from 'vue-router'
         </div>
 
         <div class=" hover:text-slate-500 cursor-pointer duration-100 contact-us">
-            <a>Contact Us </a>
+            <a class=" font-sans">Contact Us </a>
         </div>
     </nav>
     <div class=" w-[85%] m-auto fixed z-[] top-20 left-[5.7rem] border-b-2	 border-navbar"></div>
@@ -40,6 +40,7 @@ import { RouterLink, RouterView } from 'vue-router'
     </div>
     <!-- end navbar -->
 
+    <!-- start-how-we-work -->
     <div class=" w-full h-[100vh] container-how-we-work">
         <div class=" w-[80%] m-auto pt-[14rem] home-description">
             <span class=" block w-48 h-1 ml-[6px] bg-orange-500 rounded"></span>
@@ -50,12 +51,14 @@ import { RouterLink, RouterView } from 'vue-router'
             needs and goals. We take personal stock in the work which leads to amazing executions!</p>
         </div>
     </div>
+    <!-- end-how-we-work -->
 
+    <!-- start-how-we-work-listesn -->
     <div class="  w-full h-[100vh] container-how-we-work-listen">
 
     </div>
 
-    <div class=" w-full h-[100vh] container-technology-stack">
+    <div class=" w-full h-[120vh] container-technology-stack">
         <div class="  w-[80%] m-auto pt-[6rem] text-center  technology-stack-description">
             <h1 class=" text-4xl tracking-wide leading-[4.5rem] opacity-70 ">ADAPTIVE TECHNOLOGY</h1>
             <h1 class=" text-4xl tracking-wide leading-[4.5rem] opacity-70 ">STACK!</h1>
@@ -64,24 +67,52 @@ import { RouterLink, RouterView } from 'vue-router'
         
         <div class=" w-[70%] m-auto pt-11 flex justify-center gap-6 flex-wrap card-technology-stack">
 
-            <div class=" w-32 h-20 bg-white rounded-[10px] card">Laravel</div>
-            <div class=" w-32 h-20 bg-white rounded-[10px] card">Laravel</div>
-            <div class=" w-32 h-20 bg-white rounded-[10px] card">Laravel</div>
-            <div class=" w-32 h-20 bg-white rounded-[10px] card">Laravel</div>
-            <div class=" w-32 h-20 bg-white rounded-[10px] card">Laravel</div>
-            <div class=" w-32 h-20 bg-white rounded-[10px] card">Laravel</div>
-            <div class=" w-32 h-20 bg-white rounded-[10px] card">Laravel</div>
-            <div class=" w-32 h-20 bg-white rounded-[10px] card">Laravel</div>
-            <div class=" w-32 h-20 bg-white rounded-[10px] card">Laravel</div>
-            <div class=" w-32 h-20 bg-white rounded-[10px] card">Laravel</div>
-            <div class=" w-32 h-20 bg-white rounded-[10px] card">Laravel</div>
-            <div class=" w-32 h-20 bg-white rounded-[10px] card">Laravel</div>
-            <div class=" w-32 h-20 bg-white rounded-[10px] card">Laravel</div>
-            <div class=" w-32 h-20 bg-white rounded-[10px] card">Laravel</div>
-            <div class=" w-32 h-20 bg-white rounded-[10px] card">Laravel</div>
+            <div class=" w-32 h-20 bg-gray-400 text-white text-center leading-[5rem] rounded-[10px] card">Laravel</div>
+            <div class=" w-32 h-20 bg-gray-400 text-white text-center leading-[5rem] rounded-[10px] card">Laravel</div>
+            <div class=" w-32 h-20 bg-gray-400 text-white text-center leading-[5rem] rounded-[10px] card">Laravel</div>
+            <div class=" w-32 h-20 bg-gray-400 text-white text-center leading-[5rem] rounded-[10px] card">Laravel</div>
+            <div class=" w-32 h-20 bg-gray-400 text-white text-center leading-[5rem] rounded-[10px] card">Laravel</div>
+            <div class=" w-32 h-20 bg-gray-400 text-white text-center leading-[5rem] rounded-[10px] card">Laravel</div>
+            <div class=" w-32 h-20 bg-gray-400 text-white text-center leading-[5rem] rounded-[10px] card">Laravel</div>
+            <div class=" w-32 h-20 bg-gray-400 text-white text-center leading-[5rem] rounded-[10px] card">Laravel</div>
+            <div class=" w-32 h-20 bg-gray-400 text-white text-center leading-[5rem] rounded-[10px] card">Laravel</div>
+            <div class=" w-32 h-20 bg-gray-400 text-white text-center leading-[5rem] rounded-[10px] card">Laravel</div>
+            <div class=" w-32 h-20 bg-gray-400 text-white text-center leading-[5rem] rounded-[10px] card">Laravel</div>
+            <div class=" w-32 h-20 bg-gray-400 text-white text-center leading-[5rem] rounded-[10px] card">Laravel</div>
+            <div class=" w-32 h-20 bg-gray-400 text-white text-center leading-[5rem] rounded-[10px] card">Laravel</div>
+            <div class=" w-32 h-20 bg-gray-400 text-white text-center leading-[5rem] rounded-[10px] card">Laravel</div>
+            <div class=" w-32 h-20 bg-gray-400 text-white text-center leading-[5rem] rounded-[10px] card">Laravel</div>
             
         </div>
-        <h1>testing git pull</h1>
+    </div>
+    <!-- end how-we-work-listen -->
+
+    <!-- start why us -->
+    <div class=" w-full h-[100vh] container-how-we-work container-why-us">
+
+        <div class=" w-[80%] m-auto pt-[12rem] home-description">
+            <h1 class="text-5xl tracking-wide leading-[4.5rem] opacity-70">WHY US !</h1>
+        </div>
+
+    </div>
+    <!-- end why us -->
+
+    <!-- our-project -->
+    <div class=" w-full h-[100vh] container-our-project">
+         
+        <div class=" w-[80%] m-auto pt-[7rem] pb-20 flex justify-between items-center home-description">
+            <h1>OUR PROJECT</h1>
+            <h4>MORE PROJECT</h4>
+        </div>
+
+        <div class=" w-full flex justify-center client-project">
+            <div class=" w-[22%] h-96 ml-[-15px] bg-white border list-project"></div>
+            <div class=" w-[22%] h-96 bg-white border list-project"></div>
+            <div class=" w-[22%] h-96 bg-white border list-project"></div>
+            <div class=" w-[22%] h-96 bg-white border list-project"></div>
+
+        </div>
+
     </div>
 
   <RouterView />
